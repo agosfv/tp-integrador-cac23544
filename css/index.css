@@ -1,0 +1,77 @@
+#confbsas {
+    /*margin-right: 1420px;*/
+    color: azure;
+}
+
+.uno span a{
+    color: rgb(199, 196, 196);
+}
+
+
+#laconf {
+    color: azure;
+}
+
+#compratik{
+    color: rgb(69, 223, 69);
+}
+
+
+}  
+
+@media (min-width: 1px) and (max-width: 1216px) {
+
+    #logo {
+        border: 5px solid red;
+        margin: auto;
+    }
+    #confbsas{
+        border: 5px solid red;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    #menu{
+        display: flex;
+        justify-content: center;
+    }
+    .links{
+        display: none;
+    }
+  
+
+} 
+
+@media (min-width: 1216px) and (max-width: 9999px) {
+    #logo{
+        display: inline-flex;
+        justify-content: flex-start;
+    }
+    #confbsas{
+        display: inline-flex;
+        justify-content: flex-start;
+    
+    }
+    .uno span a{
+        display: inline-flex;
+        justify-content: space-evenly;
+        margin: 8px;
+        color: rgb(199, 196, 196);
+        font-size: px;
+    }
+    #menu{
+        display: none;
+    }
+    .hola{
+    position: absolute;
+    font-size: 1.5vh;
+    margin-right: 10px;
+    right: 50px;
+    top: 30vh;
+    text-align: end;
+    color: azure;
+}
+.hola h3{
+    font-size: 2vh;
+}
+}
