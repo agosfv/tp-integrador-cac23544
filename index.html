@@ -11,12 +11,13 @@
 </head>
 
 <body>
-    <nav class="container-fluid bg-secondary">
+    <nav class="container-fluid">
         <div id="navbar">
             <section class="uno">
                 <span id="logoh2">
-                    <img id="logo" class="row col-xxl-3 col-xl-3" src="./assets/codoacodo.png" alt="">
-                    <h2 class="row col-xxl-3 col-xl-3" id="confbsas"> Conf Bs As </h2>
+                    <img id="logo" class="row col-xxl-3 col-xl-3 col-lg-10 col-md-10 col-sm-10"
+                        src="./assets/codoacodo.png" alt="">
+                    <h2 class="row col-xxl-3 col-xl-3 col-lg-12 col-md-12 col-sm-12" id="confbsas"> Conf Bs As </h2>
                 </span>
                 <span class="links">
                     <a class="row col-xxl-1 col-xl-1 col-lg-1" id="laconf" href="">La conferencia</a>
@@ -28,8 +29,8 @@
 
             </section>
             <section>
-                <div id="menu" class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                <div id="menu" class="dropdown row col-lg-2 col-md-2 col-sm-2">
+                    <button class="btn btn-lg btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         Menu
                     </button>
@@ -47,10 +48,10 @@
             </section>
         </div>
     </nav>
-    <header>
-        <div id="carouselExample" class="container-fluid">
+    <section class=" container-fluid header">
+        <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
-                <div id="imgba1" class="carousel-item active">
+                <div class="carousel-item active">
                     <img src="./assets/ba1.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
@@ -68,14 +69,134 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-            <section class="hola row col-7">
+        </div>
+        <div class="container-fluid">
+            <div class=" hola row col-xxl-6 col-xl-8 col-lg-8 col-md-8">
                 <h3>Conf Bs As</h3>
                 <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el
                     conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a
                     miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos
                     para ti. Te esperamos!</p>
-            </section>
+                <div>
+                    <button type="button" class="btn btn-xl btn-outline-light">Quiero ser orador</button>
+                    <button id="btncompra" type="button" class="btn btn-xl">Comprar tickets</button>
+                </div>
+            </div>
         </div>
-    </header>
+    </section>
+    <main>
+        <div class="container-fluid">
+            <div class="conoceora row col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <h2>CONOCE A LOS </h2>
+                <h3><b>ORADORES</b></h3>
+            </div>
+            <div id="mainimg">
+                <div>
+                   <div >
+                    <img id="fotos" class="row col-xxl-3" src="./assets/steve.jpg" alt="">
+                   </div>
+                    <div class="row col-sm-12">
+                        <span id="habilidades">
+                            <strong class="javas">JavaScript</strong>
+                            <strong class="react">React</strong>
+                        </span>
+                    </div>
+                    <div id="desc" class="row col-xxl-4">
+                        <h4>Steve Jobs</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos praesentium laudantium
+                            natus maiores corrupti blanditiis. Qui possimus minima laborum amet explicabo laboriosam
+                            officiis similique voluptatum quod, quo adipisci suscipit atque!</p>
+                    </div>
+                </div>
+                <div>
+                    <div >
+                        <img  id="fotos" class=" row col-xxl-3" src="./assets/bill.jpg" alt="">
+                    </div>
+                    <div class="row col-sm-12">
+                        <span id="habilidades">
+                            <strong class="javas">JavaScript</strong>
+                            <strong class="react">React</strong>
+                        </span>
+
+                    </div>
+                    <div id="desc" class="row col-xxl-4">
+                        <h4>Bill Gates</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore doloremque quo harum
+                            delectus iste distinctio sint labore cupiditate, eligendi dignissimos, maiores
+                            tenetur architecto officiis enim optio facilis. Nostrum, corporis aliquid.</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img  id="fotos" class="row col-xxl-3" src="./assets/ada.jpeg" alt="">
+                    </div>
+                    <div class="row  col-sm-12">
+                        <span id="habilidades">
+                            <strong class="nego">Negocios</strong>
+                            <strong class="startups">Startups</strong>
+                        </span>
+                    </div>
+                    <div id="desc" class="row col-xxl-4">
+                        <h4>Adaa Lovelace</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit sequi explicabo quos odio, fuga
+                            labore totam optio expedita libero tenetur maxime consequuntur accusantium dolore quod
+                            dolorum deserunt eaque obcaecati dicta.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section>
+        <div id="honolulu" class="container-fluid">
+            <span class="row col-xxl-6">
+            <img src="./assets/honolulu.jpg" alt=""></span>
+            <span id="textohon" class="row col-xxl-6" >
+            <h4>Bs As - Octubre </h4>
+                <p> Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad- condado consolidada que cubre toda la ciudad (aproximadamente 600 km² de superficie).
+            </p>
+            <div>
+            <button type="button" class="btn btn-primary btn-sm">Small button</button>
+        </div>
+        </span>
+        </div>
+    </section>
+    <section>
+        <div id="form" class="row col-xxl-6">
+        <div class="">
+            <h2>CONVIERTETE EN</h2>
+            <h3><b>ORADOR</b></h3>
+        </div>
+        <div class="">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="row col-12"> 
+            <button class="btn btn-primary" type="button">Button</button>
+          </div>
+        
+    </div>
+    </section>
+    <footer>
+        <div>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+        </div>
+    </footer>
 
 </body>
